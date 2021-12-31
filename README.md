@@ -7,7 +7,7 @@
 2. The dataset consists of two features i.e. ‘Strength’ and ‘Temperature’ applied to a certain piece of plastic. Using the features, we will predict how much ‘Pressure’ that the plastic can stand by constructing matured polynomial features and optimizing the weights by using GD and SGD without any regularization. Do the same for degrees 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Determine the which degree polynomial provides the best fit to the data. 
 
 
-3. Using the same dataset, construct polynomial regression of degree 9 and implement ridge and lasso regression with gradient descent and stochastic gradient algorithms. Build both the models with for different values of lambda (at least 20values) and figure out the optimal models with the most appropriate lambda.
+3. Using the same dataset, construct polynomial regression of degree 9 and implement ridge and lasso regression with gradient descent and stochastic gradient algorithms. Build both the models with for different values of lambda (5 values) and figure out the optimal models with the most appropriate lambda.
 	
 ## Assignment- 2 ##
 In this assignment, we have to use linear regression to predict house prices using the other 13 attributes (bedrooms, bathrooms, sqft_living etc.) of the dataset attached below. In order to achieve the same, you required to:-
